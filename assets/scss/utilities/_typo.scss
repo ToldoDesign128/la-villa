@@ -1,0 +1,26 @@
+// _typo.scss
+
+@import "https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat";
+
+$title-font: 'Libre Baskerville', serif;
+$text-font: 'Montserrat', sans-serif;
+
+h1, h2, h3, h4{
+    font-family: $title-font;
+}
+
+h5, h6, p, a, ol, ul, li, b, strong, i, em, mark, small, del, ins, sub, sup, pre, button{
+    font-family: $text-font;
+}
+
+h1{ font-weight: 400; font-size: 82px; letter-spacing: -1.5px; line-height: 110%;}
+h2{ font-weight: 400; font-size: 51px; letter-spacing: -0.5px; line-height: 110%;}
+h3{ font-weight: 400; font-size: 41px; letter-spacing: 0px; line-height: 110%;}
+h4{ font-weight: 400; font-size: 29px; letter-spacing: 0.25px; line-height: 120%;}
+h5{ font-weight: 400; font-size: 20px; letter-spacing: 0px; line-height: 120%;}
+h6{ font-weight: 700; font-size: 18px; letter-spacing: 0.15px; line-height: 140%;}
+
+p{ font-weight: 400; font-size: 16px; line-height: 140%;}
+ul, ol, li{ font-weight: 400; font-size: 16px; line-height: 140%;}
+a{ font-weight: 300; font-size: 16px; line-height: 140%;}
+button{ font-weight: 300; font-size: 16px; line-height: 140%; text-transform: uppercase;}

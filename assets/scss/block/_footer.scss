@@ -1,6 +1,6 @@
 footer{
     border-top: 1px solid $secondary-color;
-    padding: 5vh 0;
+    padding: 0;
 
     .container{
         .row{
@@ -9,10 +9,74 @@ footer{
 
             .footer__col{
                 flex-grow: 1;
+                padding: 48px 0;
+                border-right: 1px solid $secondary-color;
+
+                &__logo{
+                    a{
+                        img{
+                            max-width: 200px;
+                        }
+                    }
+                }
+
+                &__adress{
+                    padding: 36px 0 0 0;
+
+                    a{
+                        color: $secondary-color;
+                        text-decoration: none;
+                    }
+                }
+
+                &__contatti{
+                    margin: 0 36px;
+                    
+                    h2{
+                        color: $secondary-color;
+                    }
+                    a{
+                        color: $secondary-color;
+                        text-decoration: none;
+                    }
+                }
+
+                &__social{
+                    margin: 0 0 0 36px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    justify-content: center;
+                    
+                    a{
+                        flex-grow: 1;
+                    }
+                }
+
+                &:last-child{
+                    border-right: none;
+                }
             }
 
             @media (max-width: $tablet) {
                 flex-direction: column;                
+            }
+        }
+    }
+    .credits{
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid $secondary-color;
+        padding: 12px;
+
+        a{
+            color: $secondary-color;
+            text-decoration: none; 
+            transition: all 0.4s ease-in-out;
+
+            &:hover{
+                color: $white-color;
+                font-weight: 400;
             }
         }
     }

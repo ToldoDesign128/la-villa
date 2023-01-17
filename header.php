@@ -25,7 +25,7 @@
                     <div class="menu__list">
                         <nav>
                             <?php wp_nav_menu(array(
-                                'theme_location'    =>  'header',
+                                'theme_location'    =>  'ht-header',
                                 'container'         =>  false,
                             )); ?>
                         </nav>

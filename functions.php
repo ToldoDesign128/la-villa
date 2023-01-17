@@ -25,7 +25,7 @@ if ( ! function_exists( 'la_villa_setup' ) ) :
 
             // Custom menu areas
             register_nav_menus( array(
-                'header' => esc_html__('Header', 'slug-theme')
+                'ht-header' => esc_html__('How to Header', 'slug-theme')
             ));
 
     }

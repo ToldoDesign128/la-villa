@@ -65,7 +65,7 @@ header{
                 height: 100%;
                 display: flex;
                 flex-grow: 1;
-                justify-content: end;
+                justify-content: flex-end;
                 align-items: center;
     
                 .header__hamburger{
@@ -114,7 +114,7 @@ header{
     
                     li{
                         flex-grow: 1;
-                        padding: 4vh 12px;
+                        padding: 4vh 24px;
                         border-bottom: 1px solid $secondary-color;
     
                         a{
@@ -127,21 +127,23 @@ header{
     
                 .cta__mobile{
                     flex-grow: 1;
+                    width: 100%;
                     margin: 4vh 0;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    padding: 0 24px;
     
                     a{
+                        width: 100%;
                         margin: 12px 0;
                     }
                 }
             }
             .open{
                 transform: translateX(0);
-            }
-            
+            }            
         }
     }
 }

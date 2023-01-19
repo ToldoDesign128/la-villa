@@ -27,6 +27,7 @@
                             <?php wp_nav_menu(array(
                                 'theme_location'    =>  'ht-header',
                                 'container'         =>  false,
+                                'orderby'           =>  'menu_order'
                             )); ?>
                         </nav>
                     </div>

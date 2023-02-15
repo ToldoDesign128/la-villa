@@ -20,11 +20,11 @@ html{
     padding: 0 12px;
 
     //tablet
-    @media (max-width: $tablet) {
+    @media #{$tablet} {
         max-width: 720px; 
     }
     //phone
-    @media (max-width: $phone) {
+    @media #{$phone} {
         max-width: 540px;
     }
 }

@@ -28,7 +28,7 @@ footer{
                         text-decoration: none;
 
                         p{
-                            @media (max-width: $tablet) {
+                            @media #{$tablet} {
                                 font-size: 14px;                 
                             }
                         }
@@ -45,7 +45,7 @@ footer{
                         color: $secondary-color;
                         text-decoration: none;
                     }
-                    @media (max-width: $tablet) {
+                    @media #{$tablet} {
                         margin: 0;                 
                     }
                 }
@@ -60,7 +60,7 @@ footer{
                     a{
                         flex-grow: 1;
                     }
-                    @media (max-width: $tablet) {
+                    @media #{$tablet} {
                         margin: 0;
                         flex-direction: row;
                         align-items: center;
@@ -83,18 +83,18 @@ footer{
                     border-right: none;
                 }
 
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     border-right: none;
                     border-bottom: 1px solid $secondary-color; 
                     padding: 24px; 
                 }
             }
 
-            @media (max-width: $tablet) {
+            @media #{$tablet} {
                 flex-direction: column;                 
             }
         }
-        @media (max-width: $tablet) {
+        @media #{$tablet} {
             padding: 0;                 
         }
     }

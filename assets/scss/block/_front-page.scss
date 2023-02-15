@@ -1,6 +1,5 @@
 //Hero
 .hero{
-    border-bottom: 1px solid $secondary-color;
 
     .hero__title{
         padding: 200px 0 100px 0;
@@ -14,7 +13,7 @@
             padding: 0 24px;
         }
 
-        @media (max-width: $tablet) {
+        @media #{$tablet} {
             padding: 150px 0 50px 0;                
         }
     }
@@ -32,15 +31,19 @@
                     width: 100%;
                     height: 400px;
                     object-fit: cover;
+
+                    @media #{$tablet} {
+                        height: 100%;         
+                    }
                 }
 
-                @media (max-width: $tablet) {  
+                @media #{$tablet} {  
                     border-right: none;
                     padding: 36px;
                     border-bottom: 1px solid $secondary-color;                 
                 }
                 
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     padding: 0;                       
                 }
             }
@@ -65,7 +68,7 @@
                             padding: 0 0 12px 0;
                         }
     
-                        @media (max-width: $tablet) {
+                        @media #{$tablet} {
     
                             &:first-child{
                                 padding: 12px 0;
@@ -83,21 +86,21 @@
                     }
                 }
 
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     width: 100%;   
                     border-right: none;
                     padding: 36px;
                     align-items: flex-start;
-                    border-bottom: 1px solid $secondary-color;                 
+                    border-bottom: none;                 
                 }
 
-                @media (max-width: $phone) {
+                @media #{$phone} {
                     padding: 36px 24px; 
                     align-items: center;                     
                 }
             }
         }
-        @media (max-width: $tablet) {
+        @media #{$tablet} {
             max-width: 100%;
             margin: 0;
             padding: 0;
@@ -121,20 +124,20 @@
 
                     img{
                         
-                        @media (max-width: $tablet) {
+                        @media #{$tablet} {
                             max-width: 100%;
                             height: 100%;
                             object-fit: contain;                            
                         }
                     }
                 }
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     padding: 0;                            
                 }
 
             }
         }
-        @media (max-width: $tablet) {
+        @media #{$tablet} {
             padding: 0;                            
         }
     }
@@ -145,7 +148,7 @@
     border-bottom: 1px solid $secondary-color;
 
     &__container{        
-        padding: 0;
+        padding: 0 12px;
 
         &__block{
 
@@ -163,7 +166,7 @@
                     font-size: 20px;
                 }
     
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     width: 100%;  
                     border-right: none; 
                     border-bottom: 1px solid $secondary-color;
@@ -180,19 +183,26 @@
                     width: 100%;
                     height: 300px;
                     object-fit: cover;
+
+                    @media #{$tablet} {
+                        height: 100%;         
+                    }
                 }
 
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     width: 100%;  
-                    border-bottom: 1px solid $secondary-color;
+                    border-bottom: none;
                     padding: 0;         
                 }
             }
 
     
-            @media (max-width: $tablet) {
+            @media #{$tablet} {
                 flex-direction: column;            
             }
+        }
+        @media #{$tablet} {
+            padding: 0;            
         }
     }
 }
@@ -202,7 +212,7 @@
     border-bottom: 1px solid $secondary-color;
 
     &__container{        
-        padding: 0;
+        padding: 0 12px;
 
         &__block{
 
@@ -217,9 +227,13 @@
                     width: 100%;
                     height: 400px;
                     object-fit: cover;
+
+                    @media #{$tablet} {
+                        display: none;        
+                    }
                 }
 
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     order: 2;
                     width: 100%;  
                     border-right: none; 
@@ -244,33 +258,181 @@
                     font-size: 20px;
                 }
     
-                @media (max-width: $tablet) {
+                @media #{$tablet} {
                     order: 1;
                     width: 100%;  
-                    border-bottom: 1px solid $secondary-color;
+                    border-bottom: none;
                     padding: 36px 24px;         
                 }
             }
     
-            @media (max-width: $tablet) {
+            @media #{$tablet} {
                 flex-direction: column;            
             }
+        }
+        @media #{$tablet} {
+            padding: 0;            
         }
     }
 }
 
 // Focus
 .focus{
-    border-bottom: 1px solid $secondary-color;
+    background-image: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url('http://hotel-la-villa.local/wp-content/uploads/2023/02/foto4-scaled.jpg'); //aggiornare quando si mette online
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     &__text{
-        padding: 48px 0;
+        padding: 48px 12px;
 
         p{
-            max-width: 50%;
+            width: 50%;
             padding: 12px 0;
             color: $secondary-color;
             font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @media #{$tablet} {
+                width: 100%;
+                padding: 36px 24px;                
+            }
+        }
+        @media #{$tablet} {
+            padding: 48px 24px;
+            
+        }
+    }
+}
+
+//Ristorante
+.ristorante{
+    border-top: 1px solid $secondary-color;
+
+    &__container{        
+        padding: 0 12px;
+
+        &__block{
+
+            &__text{
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 40%;
+                border-right: 1px solid $secondary-color;
+                padding: 48px 48px 48px 0;
+    
+                h4{
+                    flex-grow: 1;
+                    display: flex;
+                    align-items: flex-start;
+                    color: $secondary-color;
+                    padding:0;
+
+                    @media #{$tablet} {
+                        padding: 48px 0;   
+                        text-align: center;                     
+                    }
+                }
+    
+                @media #{$tablet} {
+                    width: 100%;  
+                    border-right: none; 
+                    border-bottom: 1px solid $secondary-color;
+                    padding: 36px 24px;         
+                }
+
+                &__button{
+                    flex-grow: 1;
+                    display: flex;
+                    align-items: flex-end;
+                    padding: 6px 0;
+
+                    a{
+                        width: 100%;
+                    }
+                    @media #{$tablet} {
+                        padding: 48px 0;                        
+                    }
+                }
+            }
+
+            &__image{
+                flex-grow: 1;
+                width: 60%;
+                padding: 48px 0 48px 48px;
+    
+                img{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+
+                    @media #{$tablet} {
+                        height: 100%;         
+                    }
+                }
+
+                @media #{$tablet} {
+                    width: 100%;  
+                    border-bottom: none;
+                    padding: 0;         
+                }
+            }
+    
+            @media #{$tablet} {
+                flex-direction: column;            
+            }
+        }
+        @media #{$tablet} {
+            padding: 0;            
+        }
+    }
+}
+
+//CTA Ristorante
+.cta__ristorante{
+    padding: 48px 0;
+    border-top: 1px solid $white-color;
+
+    .row{
+        flex-direction: row;
+        justify-content: center;
+
+        @media #{$tablet} {
+            flex-direction: column;            
+        }
+    }
+
+    &__button{
+        flex-grow: 1;
+        width: 50%;
+        padding: 0 24px 0 0;
+
+        &:last-child{
+            padding: 0 0 24px 0;
+        }
+
+        @media #{$tablet} {
+            width: 100%;
+            padding: 24px 0;           
+        }
+    }
+}
+
+// Mappa
+.mappa{
+    height: 400px;
+    border-top: 1px solid $white-color;
+
+    &__container{
+        height: 100%;
+        
+        iframe{
+            width: 100%;
+            height: 100%;
         }
     }
 }

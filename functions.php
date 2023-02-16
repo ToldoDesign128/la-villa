@@ -25,8 +25,8 @@ if ( ! function_exists( 'la_villa_setup' ) ) :
 
             // Custom menu areas
             register_nav_menus( array(
-                'ht-header' => esc_html__('How to Header', 'slug-theme')
-            ));
+                'primary' => __( 'Primary Navigation', 'theme_slug' ),
+            ) );
 
     }
 endif; // la_villa_setup
@@ -120,8 +120,14 @@ add_action( 'admin_head', 'fix_svg' );
 
 function add_la_villa_scripts() {
     wp_enqueue_style( "hamburger-style", get_template_directory_uri() . '/assets/hamburgers.min.css');
+    wp_enqueue_style( 'splide-style', get_template_directory_uri() . '/splide.min.css');
     wp_enqueue_style( "la-villa-style", get_template_directory_uri() . '/style.min.css');
+    wp_enqueue_script("splide-script", get_template_directory_uri().'/assets/js/splide/splide.min.js', array("jquery"), null, false);
 	wp_enqueue_script("la-villa-script", get_template_directory_uri(). '/assets/js/script.js', array("jquery"), null, true);
 
 }
 add_action( 'wp_enqueue_scripts', 'add_la_villa_scripts' );
+
+// Functions part
+require dirname(__FILE__).'/functions-parts/slider-camere1.php';
+require dirname(__FILE__).'/functions-parts/slider-camere2.php';

@@ -25,9 +25,8 @@
                     <div class="menu__list">
                         <nav>
                             <?php wp_nav_menu(array(
-                                'theme_location'    =>  'ht-header',
+                                'theme_location'    =>  'primary',
                                 'container'         =>  false,
-                                'orderby'           =>  'menu_order'
                             )); ?>
                         </nav>
                     </div>
@@ -52,7 +51,7 @@
             <div class="menu__mobile">
                 <nav>
                     <?php wp_nav_menu(array(
-                        'theme_location'    =>  'header',
+                        'theme_location'    =>  'primary',
                         'container'         =>  false,
                     )); ?>
                 </nav>

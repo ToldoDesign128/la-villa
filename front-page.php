@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row hero__content">
                 <div class="hero__content__image">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto1.png'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto1.png'; ?>" alt="">
                 </div>
                 <div class="hero__content__block">
                     <div class="hero__content__block__text">
@@ -64,7 +64,7 @@
                     <p>La prima cosa che salta all’occhio è l’autenticità del luogo che non è stato costruito per essere un albergo ma nasce come villa privata e ne mantiene tutte le caratteristiche, spirito, arredamento, disposizione dei locali, l’aria stessa che si respira, tutto è a misura e nello spirito di famiglia.</p>
                 </div>
                 <div class="poster__container__block__image">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto3.jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto3.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <div class="container poster2__container">
             <div class="row poster2__container__block">
                 <div class="poster2__container__block__image">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto2.jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto2.jpg'; ?>" alt="">
                 </div>
                 <div class="poster2__container__block__text">
                     <p>Alla villa non ci si può aspettare convenzioni, inchini, salamelecchi e livree, ma a chi arriva è riservata l’accoglienza vera e semplice di chi viene a trovare vecchi amici per passare un periodo sereno fuori dalla routine.</p>
@@ -101,13 +101,13 @@
                 <div class="ristorante__container__block__text">
                     <h4>Il nostro Cheff Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
+                        <a href="ristorante" target="_blank">
                             <button>Scopri il ristorante</button>
                         </a>
                     </div>
                 </div>
                 <div class="ristorante__container__block__image">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto5.jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto5.jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -135,6 +135,23 @@
     <section class="mappa">
         <div class="mappa__container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d365856.2574639731!2d12.368889!3d44.243056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeec65de2df1e3c1!2sHotel%20La%20Villa!5e0!3m2!1sit!2sus!4v1676476511688!5m2!1sit!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- poster 2 -->
+    <section class="poster3">
+        <div class="container poster3__container">
+            <div class="row poster3__container__block">
+                <div class="poster3__container__block__image">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto6.jpg'; ?>" alt="">
+                </div>
+                <div class="poster3__container__block__text">
+                    <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di  un  contributo pari ad € 20.860,07 per la partecipazione al</p>
+                    <p> <strong> “Bando Sostegno agli investimenti delle imprese operanti nelle attività ricettive e turistico-ricreative (art. 6 L.R. 25/2018)” </strong> </p>
+                    <p> a valere sul finanziamento con protocollo PG/2019/763251 .</p>
+                    <p>Con questo progetto di investimento finanziato con risorse regionali, ha eseguito  un intervento di ristrutturazione e riqualificazione dell’Hotel La Villa sito in Pinarella di Cervia</p>
+                </div>
+            </div>
         </div>
     </section>
 </main>

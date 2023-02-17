@@ -3,7 +3,7 @@
 		<ul class="splide__list">
 			<?php 
 				$loop = new WP_Query( array( 
-					'post_type'         => 'camere_pineta',
+					'post_type'         => 'ristorante',
 					'post_status'       => 'publish',
 					'orderby'           => 'count',
 					'order'             => 'DESC',

@@ -18,7 +18,7 @@
                 <div class="menu__box">
                     <div class="logo">
                         <a href="<?php echo esc_url_raw(home_url()); ?>">
-                            <img src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
+                            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
                         </a>
                     </div>                
                     <!--pannello menu widget-->

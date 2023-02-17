@@ -4,7 +4,7 @@
             <div class="footer__col">
                 <div class="footer__col__logo">
                     <a href="<?php echo esc_url_raw(home_url()); ?>">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
+                        <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
                     </a>                    
                 </div>
                 <div class="footer__col__adress">
@@ -20,13 +20,13 @@
                     </h2>
                     <a href="tel:0544987401">
                         <div class="telefono">
-                            <img src="" alt="">
+                            <img loading=lazy src="" alt="">
                             <p>+39 0544987401</p>
                         </div>
                     </a>
                     <a href="mailto:info@lavillapinarella.it">
                         <div class="mail">
-                            <img src="" alt="">
+                            <img loading=lazy src="" alt="">
                             <p>info@lavillapinarella.it</p>                        
                         </div>
                     </a>

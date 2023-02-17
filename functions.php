@@ -131,3 +131,4 @@ add_action( 'wp_enqueue_scripts', 'add_la_villa_scripts' );
 // Functions part
 require dirname(__FILE__).'/functions-parts/slider-camere1.php';
 require dirname(__FILE__).'/functions-parts/slider-camere2.php';
+require dirname(__FILE__).'/functions-parts/slider-ristorante.php';

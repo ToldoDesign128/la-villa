@@ -7,7 +7,7 @@
             <h2>Il Ristorante</h2>
         </div>
         <div class="ristorante__hero__image">
-            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante (1).jpg'; ?>" alt="">
+            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante(1).jpg'; ?>" alt="">
         </div>
         <div class="ristorante__hero__button row">
             <a href="#">
@@ -34,7 +34,7 @@
                     <h4>I sapori del mare e della terra.</h4>
                 </div>
                 <div class="ristorante__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante (3).jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante(3).jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                     <h5>Il nostro pane viene prodotto a Predappio secondo l’antica tradizione, la sua particolare lievitazione lo rende leggero e genuino dal gusto inconfondibile.</h5>
                 </div>
                 <div class="ristorante__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante (2).jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante(2).jpg'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="container ristorante__poster2__container">
             <div class="row ristorante__poster2__container__block">
                 <div class="ristorante__poster2__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante (4).jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante(4).jpg'; ?>" alt="">
                 </div>
                 <div class="ristorante__poster2__container__block__text">
                     <h4>La Romagna è una terra tutta da gustare: conoscere le sue tradizioni e i suoi sapori vi farà scoprire la sua essenza</h4>
@@ -117,7 +117,7 @@
                     <h5>Nel nostro ristorante si può scegliere comodamente alla carta oppure approfittare delle convenzioni con menù completi e convenienti senza perdersi nulla della nostra cucina.</h5>
                 </div>
                 <div class="ristorante__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante (5).jpg'; ?>" alt="">
+                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante(5).jpg'; ?>" alt="">
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@
 
 <body <?php body_class(); ?>>
 
-    <header id="navigation">
+    <header id="navigation" class="inview">
         <div class="container">
             <div class="row">
                 <div class="menu__box">

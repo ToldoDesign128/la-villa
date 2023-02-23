@@ -12,12 +12,12 @@ jQuery(document).ready(function () {
   });
 
   //Splide
-  var elms = document.getElementsByClassName( 'splide' );
+  var elms = document.getElementsByClassName("splide");
 
-    for ( var i = 0; i < elms.length; i++ ) {
-    new Splide( elms[ i ] ,{
-        type : 'loop',
-        perPage: 1,
-    } ).mount();
-    }
+  for (var i = 0; i < elms.length; i++) {
+    new Splide(elms[i], {
+      type: "loop",
+      perPage: 1,
+    }).mount();
+  }
 });

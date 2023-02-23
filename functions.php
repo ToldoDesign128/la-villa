@@ -123,6 +123,9 @@ function add_la_villa_scripts() {
     wp_enqueue_style( 'splide-style', get_template_directory_uri() . '/splide.min.css');
     wp_enqueue_style( "la-villa-style", get_template_directory_uri() . '/style.min.css');
     wp_enqueue_script("splide-script", get_template_directory_uri().'/assets/js/splide/splide.min.js', array("jquery"), null, false);
+    wp_enqueue_script("gsap-script", get_template_directory_uri().'/assets/js/gsap/gsap.min.js', array("jquery"), null, false);
+    wp_enqueue_script("gsap-ScrollTrigger-script", get_template_directory_uri().'/assets/js/gsap/ScrollTrigger.min.js', array("jquery"), null, false);
+    wp_enqueue_script("la-villa-animation-script", get_template_directory_uri(). '/assets/js/animation.js', array("jquery"), null, true);
 	wp_enqueue_script("la-villa-script", get_template_directory_uri(). '/assets/js/script.js', array("jquery"), null, true);
 
 }

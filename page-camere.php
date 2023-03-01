@@ -7,7 +7,7 @@
             <h2>Le Camere</h2>
         </div>
         <div class="camere__hero__image">
-            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/camere/foto_camere9.jpg'; ?>" alt="">
+            <img src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto_camere9-scaled.webp" alt="">
         </div>
     </section>
 
@@ -21,7 +21,7 @@
                     <p>Con la camera invece è compreso la pulizia giornaliera, la biancheria, il wi-fi, il parcheggio la tv e l’aria condizionata ed una convenzione per l’ombrellone alla spiaggia e due lettini a 10 euro al giorno.</p>
                 </div>
                 <div class="camere__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/camere/foto_camere2.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto_camere2-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -71,12 +71,12 @@
             <div class="row">
                 <div class="cta__ristorante__button">
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
-                        <button>Chiedi un preventivo</button>
+                        <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>
                 <div class="cta__ristorante__button">
                     <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                        <button>Prenota ora</button>
+                        <button type="button">Prenota ora</button>
                     </a>
                 </div>
             </div>

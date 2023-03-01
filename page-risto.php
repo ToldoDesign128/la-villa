@@ -7,11 +7,11 @@
             <h2>Il Ristorante</h2>
         </div>
         <div class="ristorante__hero__image">
-            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante1.jpg'; ?>" alt="">
+            <img src="http://lavillapinarella.it/wp-content/uploads/2023/03/ristorante1-scaled.webp" alt="">
         </div>
         <div class="ristorante__hero__button row">
-            <a href="#">
-                <button>Scopri il menu</button>
+            <a href="http://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf" target="_blank" >
+                <button type="button">Scopri il menu</button>
             </a>
         </div>
     </section>
@@ -34,7 +34,7 @@
                     <h4>I sapori del mare e della terra.</h4>
                 </div>
                 <div class="ristorante__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante3.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -45,14 +45,14 @@
         <div class="container ristorante__poster2__container">
             <div class="row ristorante__poster2__container__block">
                 <div class="ristorante__poster2__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto5.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto5-scaled.webp" alt="">
                 </div>
                 <div class="ristorante__poster2__container__block__text">
                     <h4>Nazario, il nostro cheff</h4>
                     <p>I menù sono riferiti alla stagione 2022 e soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
-                        <a href="#">
-                            <button>Scopri il menu</button>
+                        <a href="http://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf" target="_blank" >
+                            <button type="button">Scopri il menu</button>
                         </a>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <h5>Il nostro pane viene prodotto a Predappio secondo l’antica tradizione, la sua particolare lievitazione lo rende leggero e genuino dal gusto inconfondibile.</h5>
                 </div>
                 <div class="ristorante__poster3__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante2.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/ristorante2-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="container ristorante__poster4__container">
             <div class="row ristorante__poster4__container__block">
                 <div class="ristorante__poster4__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante4.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/ristorante4.webp" alt="">
                 </div>
                 <div class="ristorante__poster4__container__block__text">
                     <h4>La Romagna è una terra tutta da gustare: conoscere le sue tradizioni e i suoi sapori vi farà scoprire la sua essenza</h4>
@@ -117,7 +117,7 @@
                     <h5>Nel nostro ristorante si può scegliere comodamente alla carta oppure approfittare delle convenzioni con menù completi e convenienti senza perdersi nulla della nostra cucina.</h5>
                 </div>
                 <div class="ristorante__poster5__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante5.jpg'; ?>" alt="">
+                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/ristorante5-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -129,12 +129,12 @@
             <div class="row">
                 <div class="cta__ristorante__button">
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
-                        <button>Chiedi un preventivo</button>
+                        <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>
                 <div class="cta__ristorante__button">
                     <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                        <button>Prenota ora</button>
+                        <button type="button">Prenota ora</button>
                     </a>
                 </div>
             </div>

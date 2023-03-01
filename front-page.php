@@ -101,7 +101,7 @@
                 <div class="ristorante__container__block__text">
                     <h4>Il nostro Cheff Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="ristorante" target="_blank">
+                        <a href="risto" target="_blank">
                             <button type="button">Scopri il ristorante</button>
                         </a>
                     </div>

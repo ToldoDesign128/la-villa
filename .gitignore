@@ -40,20 +40,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-assets/scss/block/
-assets/scss/utilities/
-
-# File
-assets/scss/style.scss
-assets/js/animation.js
-assets/js/script.js
-main.js
-mix-manifest.json
-package-lock.json
-package.json
-script.js
-style.css
-webpack.mix.js
 
 # TypeScript v1 declaration files
 typings/

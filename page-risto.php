@@ -61,14 +61,14 @@
     </section>
 
     <!-- poster 3-->
-    <section class="ristorante__poster">
-        <div class="container ristorante__poster__container">
-            <div class="row ristorante__poster__container__block">
-                <div class="ristorante__poster__container__block__text">
+    <section class="ristorante__poster3">
+        <div class="container ristorante__poster3__container">
+            <div class="row ristorante__poster3__container__block">
+                <div class="ristorante__poster3__container__block__text">
                     <h4>Assaggia le nostre bruschette: </h4>
                     <h5>Il nostro pane viene prodotto a Predappio secondo l’antica tradizione, la sua particolare lievitazione lo rende leggero e genuino dal gusto inconfondibile.</h5>
                 </div>
-                <div class="ristorante__poster__container__block__image">
+                <div class="ristorante__poster3__container__block__image">
                     <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante2.jpg'; ?>" alt="">
                 </div>
             </div>
@@ -76,20 +76,20 @@
     </section>
 
     <!-- poster 4 -->
-    <section class="ristorante__poster2">
-        <div class="container ristorante__poster2__container">
-            <div class="row ristorante__poster2__container__block">
-                <div class="ristorante__poster2__container__block__image">
+    <section class="ristorante__poster4">
+        <div class="container ristorante__poster4__container">
+            <div class="row ristorante__poster4__container__block">
+                <div class="ristorante__poster4__container__block__image">
                     <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante4.jpg'; ?>" alt="">
                 </div>
-                <div class="ristorante__poster2__container__block__text">
+                <div class="ristorante__poster4__container__block__text">
                     <h4>La Romagna è una terra tutta da gustare: conoscere le sue tradizioni e i suoi sapori vi farà scoprire la sua essenza</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- gallery2 camera -->
+    <!-- gallery ristorante -->
     <section class="ristorante__gallery">
         <div class="container ristorante__gallery__container">
             <div class="ristorante__gallery__container__image">
@@ -99,24 +99,24 @@
     </section>
 
     <!-- frase -->
-    <section class="ristorante__frase">
-        <div class="container ristorante__frase__container">
+    <section class="ristorante__frase2">
+        <div class="container ristorante__frase2__container">
             <h3>Colazione</h3>
             <p>dalle 7.30 alle 11.00</p>
             <h4>Lasciati coccolare al mattino nella luce della veranda sulla pineta.</h4>
         </div>
     </section>
 
-    <!-- poster 3-->
-    <section class="ristorante__poster bb-none">
-        <div class="container ristorante__poster__container">
-            <div class="row ristorante__poster__container__block">
-                <div class="ristorante__poster__container__block__text">
+    <!-- poster 5-->
+    <section class="ristorante__poster5 bb-none">
+        <div class="container ristorante__poster5__container">
+            <div class="row ristorante__poster5__container__block">
+                <div class="ristorante__poster5__container__block__text">
                     <h4>Il Pranzetto E La Cena</h4>
                     <p>dalle 12.30 alle 14.30 e dalle 19.30 alle 23.00</p>
                     <h5>Nel nostro ristorante si può scegliere comodamente alla carta oppure approfittare delle convenzioni con menù completi e convenienti senza perdersi nulla della nostra cucina.</h5>
                 </div>
-                <div class="ristorante__poster__container__block__image">
+                <div class="ristorante__poster5__container__block__image">
                     <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/ristorante/ristorante5.jpg'; ?>" alt="">
                 </div>
             </div>

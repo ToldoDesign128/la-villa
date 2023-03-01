@@ -4,6 +4,8 @@ let mix = require('laravel-mix');
 let minifier = require('minifier');
 
 mix.sass('assets/scss/style.scss', 'style.css');
+mix.combine(['assets/js/animation.js', 'assets/js/script.js'], 'script.js');
+mix.minify(['script.js']);
 
 mix.webpackConfig({
   watchOptions: {

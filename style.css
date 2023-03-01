@@ -1184,43 +1184,43 @@ footer .credits a:hover {
 .ristorante__hero__button a button {
   width: 100%;
 }
-.ristorante__frase {
+.ristorante__frase, .ristorante__frase2 {
   padding: 48px;
   border-bottom: 1px solid #f7f0f5;
 }
-.ristorante__frase__container h3 {
+.ristorante__frase__container h3, .ristorante__frase2__container h3 {
   margin: 24px 0;
   text-align: center;
   color: #EFE6DC;
 }
-.ristorante__frase__container h4 {
+.ristorante__frase__container h4, .ristorante__frase2__container h4 {
   margin: 24px 0;
   font-size: 24px;
   text-align: center;
   color: #EFE6DC;
 }
-.ristorante__frase__container h5 {
+.ristorante__frase__container h5, .ristorante__frase2__container h5 {
   color: #EFE6DC;
   text-align: center;
   margin: 24px 0;
 }
-.ristorante__frase__container p {
+.ristorante__frase__container p, .ristorante__frase2__container p {
   color: #EFE6DC;
   text-align: center;
   margin: 24px 0;
 }
 @media (max-width : 768px) {
-  .ristorante__frase {
+  .ristorante__frase, .ristorante__frase2 {
     padding: 48px 12px;
   }
 }
-.ristorante__poster {
+.ristorante__poster, .ristorante__poster3, .ristorante__poster5 {
   border-bottom: 1px solid #EFE6DC;
 }
-.ristorante__poster__container {
+.ristorante__poster__container, .ristorante__poster3__container, .ristorante__poster5__container {
   padding: 0 12px;
 }
-.ristorante__poster__container__block__text {
+.ristorante__poster__container__block__text, .ristorante__poster3__container__block__text, .ristorante__poster5__container__block__text {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -1229,54 +1229,54 @@ footer .credits a:hover {
   border-right: 1px solid #EFE6DC;
   padding: 48px 48px 48px 0;
 }
-.ristorante__poster__container__block__text p {
+.ristorante__poster__container__block__text p, .ristorante__poster3__container__block__text p, .ristorante__poster5__container__block__text p {
   color: #EFE6DC;
 }
-.ristorante__poster__container__block__text h4 {
+.ristorante__poster__container__block__text h4, .ristorante__poster3__container__block__text h4, .ristorante__poster5__container__block__text h4 {
   margin: 24px 0;
   color: #EFE6DC;
 }
-.ristorante__poster__container__block__text h5 {
+.ristorante__poster__container__block__text h5, .ristorante__poster3__container__block__text h5, .ristorante__poster5__container__block__text h5 {
   margin: 24px 0;
   line-height: 160%;
   color: #EFE6DC;
 }
 @media (max-width : 768px) {
-  .ristorante__poster__container__block__text {
+  .ristorante__poster__container__block__text, .ristorante__poster3__container__block__text, .ristorante__poster5__container__block__text {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #EFE6DC;
     padding: 36px 24px;
   }
 }
-.ristorante__poster__container__block__image {
+.ristorante__poster__container__block__image, .ristorante__poster3__container__block__image, .ristorante__poster5__container__block__image {
   flex-grow: 1;
   width: 50%;
   padding: 48px 0 48px 48px;
 }
-.ristorante__poster__container__block__image img {
+.ristorante__poster__container__block__image img, .ristorante__poster3__container__block__image img, .ristorante__poster5__container__block__image img {
   width: 100%;
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width : 990px) {
-  .ristorante__poster__container__block__image img {
+  .ristorante__poster__container__block__image img, .ristorante__poster3__container__block__image img, .ristorante__poster5__container__block__image img {
     height: 550px;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster__container__block__image img {
+  .ristorante__poster__container__block__image img, .ristorante__poster3__container__block__image img, .ristorante__poster5__container__block__image img {
     height: 400px;
   }
 }
 @media (max-width : 576px) {
-  .ristorante__poster__container__block__image img {
+  .ristorante__poster__container__block__image img, .ristorante__poster3__container__block__image img, .ristorante__poster5__container__block__image img {
     height: 100%;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster__container__block__image {
+  .ristorante__poster__container__block__image, .ristorante__poster3__container__block__image, .ristorante__poster5__container__block__image {
     width: 100%;
     height: 401px;
     border-bottom: none;
@@ -1284,22 +1284,22 @@ footer .credits a:hover {
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster__container__block {
+  .ristorante__poster__container__block, .ristorante__poster3__container__block, .ristorante__poster5__container__block {
     flex-direction: column;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster__container {
+  .ristorante__poster__container, .ristorante__poster3__container, .ristorante__poster5__container {
     padding: 0;
   }
 }
-.ristorante__poster2 {
+.ristorante__poster2, .ristorante__poster4 {
   border-bottom: 1px solid #EFE6DC;
 }
-.ristorante__poster2__container {
+.ristorante__poster2__container, .ristorante__poster4__container {
   padding: 0 12px;
 }
-.ristorante__poster2__container__block__text {
+.ristorante__poster2__container__block__text, .ristorante__poster4__container__block__text {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -1309,23 +1309,23 @@ footer .credits a:hover {
   padding: 48px 0 48px 48px;
   order: 2;
 }
-.ristorante__poster2__container__block__text h4 {
+.ristorante__poster2__container__block__text h4, .ristorante__poster4__container__block__text h4 {
   margin: 24px 0;
   color: #EFE6DC;
 }
-.ristorante__poster2__container__block__text p {
+.ristorante__poster2__container__block__text p, .ristorante__poster4__container__block__text p {
   margin: 24px 0;
   color: #EFE6DC;
 }
-.ristorante__poster2__container__block__text__button a {
+.ristorante__poster2__container__block__text__button a, .ristorante__poster4__container__block__text__button a {
   width: 30%;
   min-width: 200px;
 }
-.ristorante__poster2__container__block__text__button a button {
+.ristorante__poster2__container__block__text__button a button, .ristorante__poster4__container__block__text__button a button {
   width: 100%;
 }
 @media (max-width : 768px) {
-  .ristorante__poster2__container__block__text {
+  .ristorante__poster2__container__block__text, .ristorante__poster4__container__block__text {
     width: 100%;
     border-left: none;
     border-bottom: 1px solid #EFE6DC;
@@ -1333,35 +1333,35 @@ footer .credits a:hover {
     order: 1;
   }
 }
-.ristorante__poster2__container__block__image {
+.ristorante__poster2__container__block__image, .ristorante__poster4__container__block__image {
   flex-grow: 1;
   width: 60%;
   padding: 48px 48px 48px 0;
   order: 1;
 }
-.ristorante__poster2__container__block__image img {
+.ristorante__poster2__container__block__image img, .ristorante__poster4__container__block__image img {
   width: 100%;
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width : 990px) {
-  .ristorante__poster2__container__block__image img {
+  .ristorante__poster2__container__block__image img, .ristorante__poster4__container__block__image img {
     height: 550px;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster2__container__block__image img {
+  .ristorante__poster2__container__block__image img, .ristorante__poster4__container__block__image img {
     height: 400px;
   }
 }
 @media (max-width : 576px) {
-  .ristorante__poster2__container__block__image img {
+  .ristorante__poster2__container__block__image img, .ristorante__poster4__container__block__image img {
     height: 100%;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster2__container__block__image {
+  .ristorante__poster2__container__block__image, .ristorante__poster4__container__block__image {
     width: 100%;
     height: 401px;
     border-bottom: none;
@@ -1370,12 +1370,12 @@ footer .credits a:hover {
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster2__container__block {
+  .ristorante__poster2__container__block, .ristorante__poster4__container__block {
     flex-direction: column;
   }
 }
 @media (max-width : 768px) {
-  .ristorante__poster2__container {
+  .ristorante__poster2__container, .ristorante__poster4__container {
     padding: 0;
   }
 }

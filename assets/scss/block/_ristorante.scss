@@ -47,7 +47,7 @@
       }
     }
   }
-  &__frase {
+  &__frase, &__frase2 {
     padding: 48px;
     border-bottom: 1px solid $white-color;
 
@@ -79,7 +79,7 @@
       padding: 48px 12px;
     }
   }
-  &__poster {
+  &__poster, &__poster3, &__poster5 {
     border-bottom: 1px solid $secondary-color;
 
     &__container {
@@ -155,7 +155,7 @@
       }
     }
   }
-  &__poster2 {
+  &__poster2, &__poster4 {
     border-bottom: 1px solid $secondary-color;
 
     &__container {
@@ -271,6 +271,7 @@
       padding: 0;
     }
   }
+  
 
   .bb-none{
     border-bottom: none;

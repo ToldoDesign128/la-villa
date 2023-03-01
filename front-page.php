@@ -138,7 +138,7 @@
         </div>
     </section>
 
-    <!-- poster 2 -->
+    <!-- Bando -->
     <section class="poster3">
         <div class="container poster3__container">
             <div class="row poster3__container__block">

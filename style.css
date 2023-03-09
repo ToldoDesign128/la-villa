@@ -429,7 +429,7 @@ footer .credits a:hover {
 }
 
 .hero .hero__title {
-  padding: 200px 0 100px 0;
+  padding: 150px 0 50px 0;
   border-bottom: 1px solid #EFE6DC;
   display: flex;
   align-items: center;
@@ -438,6 +438,16 @@ footer .credits a:hover {
 .hero .hero__title h1 {
   color: #EFE6DC;
   padding: 0 24px;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+}
+.hero .hero__title h4 {
+  color: #EFE6DC;
+  padding: 0 24px;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
 }
 @media (max-width : 768px) {
   .hero .hero__title {
@@ -563,6 +573,7 @@ footer .credits a:hover {
 }
 .poster__container__block__text {
   flex-grow: 1;
+  order: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -577,14 +588,16 @@ footer .credits a:hover {
 @media (max-width : 768px) {
   .poster__container__block__text {
     width: 100%;
+    order: 2;
     border-right: none;
-    border-bottom: 1px solid #EFE6DC;
     padding: 36px 24px;
   }
 }
 .poster__container__block__image {
   flex-grow: 1;
+  order: 2;
   width: 60%;
+  border-bottom: none;
   padding: 48px 0 48px 48px;
 }
 .poster__container__block__image img {
@@ -601,7 +614,8 @@ footer .credits a:hover {
 @media (max-width : 768px) {
   .poster__container__block__image {
     width: 100%;
-    border-bottom: none;
+    order: 1;
+    border-bottom: 1px solid #EFE6DC;
     padding: 0;
   }
 }
@@ -624,7 +638,6 @@ footer .credits a:hover {
 }
 .poster2__container__block__image {
   flex-grow: 1;
-  order: 1;
   width: 60%;
   border-right: 1px solid #EFE6DC;
   padding: 48px 48px 48px 0;
@@ -636,13 +649,7 @@ footer .credits a:hover {
      object-fit: cover;
 }
 @media (max-width : 768px) {
-  .poster2__container__block__image img {
-    display: none;
-  }
-}
-@media (max-width : 768px) {
   .poster2__container__block__image {
-    order: 2;
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #EFE6DC;
@@ -651,7 +658,6 @@ footer .credits a:hover {
 }
 .poster2__container__block__text {
   flex-grow: 1;
-  order: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -665,7 +671,6 @@ footer .credits a:hover {
 }
 @media (max-width : 768px) {
   .poster2__container__block__text {
-    order: 1;
     width: 100%;
     border-bottom: none;
     padding: 36px 24px;

@@ -2,7 +2,7 @@
 .hero{
 
     .hero__title{
-        padding: 200px 0 100px 0;
+        padding: 150px 0 50px 0;
         border-bottom: 1px solid $secondary-color;
         display: flex;
         align-items: center;
@@ -11,6 +11,16 @@
         h1{
             color: $secondary-color;
             padding: 0 24px;
+            flex-grow: 1;
+            width: 100%;
+            text-align: center;
+        }
+        h4{
+            color: $secondary-color;
+            padding: 0 24px;
+            flex-grow: 1;
+            width: 100%;
+            text-align: center;
         }
 
         @media #{$tablet} {
@@ -154,6 +164,7 @@
 
             &__text{
                 flex-grow: 1;
+                order: 1;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -167,16 +178,18 @@
                 }
     
                 @media #{$tablet} {
-                    width: 100%;  
-                    border-right: none; 
-                    border-bottom: 1px solid $secondary-color;
+                    width: 100%; 
+                    order: 2; 
+                    border-right: none;
                     padding: 36px 24px;         
                 }
             }
 
             &__image{
                 flex-grow: 1;
+                order: 2;
                 width: 60%;
+                border-bottom: none;
                 padding: 48px 0 48px 48px;
     
                 img{
@@ -191,7 +204,8 @@
 
                 @media #{$tablet} {
                     width: 100%;  
-                    border-bottom: none;
+                    order: 1;
+                    border-bottom: 1px solid $secondary-color;
                     padding: 0;         
                 }
             }
@@ -218,7 +232,6 @@
 
             &__image{
                 flex-grow: 1;
-                order: 1;
                 width: 60%;
                 border-right: 1px solid $secondary-color;
                 padding: 48px 48px 48px 0;
@@ -227,14 +240,9 @@
                     width: 100%;
                     height: 400px;
                     object-fit: cover;
-
-                    @media #{$tablet} {
-                        display: none;        
-                    }
                 }
 
                 @media #{$tablet} {
-                    order: 2;
                     width: 100%;  
                     border-right: none; 
                     border-bottom: 1px solid $secondary-color;
@@ -244,7 +252,6 @@
 
             &__text{
                 flex-grow: 1;
-                order: 2;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -259,7 +266,6 @@
                 }
     
                 @media #{$tablet} {
-                    order: 1;
                     width: 100%;  
                     border-bottom: none;
                     padding: 36px 24px;         

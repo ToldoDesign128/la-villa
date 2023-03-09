@@ -5,6 +5,7 @@
     <section class="hero">
         <div class="row hero__title">
             <h1>La Villa</h1>
+            <h4>Camere e Ristorante</h4>
         </div>
         <div class="container">
             <div class="row hero__content">
@@ -99,7 +100,7 @@
         <div class="container ristorante__container">
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
-                    <h4>Il nostro Cheff Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
+                    <h4>Il nostro Chef Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
                         <a href="risto" target="_blank">
                             <button type="button">Scopri il ristorante</button>

@@ -100,15 +100,15 @@
         <div class="container ristorante__container">
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
-                    <h4>Il nostro Chef Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
+                    <h4>Il nostro Chef Denny vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="ristorante" target="_blank">
+                        <a href="ristorante">
                             <button>Scopri il ristorante</button>
                         </a>
                     </div>
                 </div>
                 <div class="ristorante__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto5.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
             </div>
         </div>

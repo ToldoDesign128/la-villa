@@ -45,10 +45,10 @@
         <div class="container ristorante__poster2__container">
             <div class="row ristorante__poster2__container__block">
                 <div class="ristorante__poster2__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto5.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
                 <div class="ristorante__poster2__container__block__text">
-                    <h4>Nazario, il nostro cheff</h4>
+                    <h4>Denny, il nostro cheff</h4>
                     <p>I menù sono riferiti alla stagione 2022 e soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
                         <a href="#">

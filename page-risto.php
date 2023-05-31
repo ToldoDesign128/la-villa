@@ -34,7 +34,7 @@
                     <h4>I sapori del mare e della terra.</h4>
                 </div>
                 <div class="ristorante__poster__container__block__image">
-                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante5-scaled.webp" alt="">
                 </div>
             </div>
         </div>

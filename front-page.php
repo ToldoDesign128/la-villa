@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row hero__content">
                 <div class="hero__content__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto1.png'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto1-1.webp" alt="">
                 </div>
                 <div class="hero__content__block">
                     <div class="hero__content__block__text">
@@ -65,7 +65,7 @@
                     <p>La prima cosa che salta all’occhio è l’autenticità del luogo che non è stato costruito per essere un albergo ma nasce come villa privata e ne mantiene tutte le caratteristiche, spirito, arredamento, disposizione dei locali, l’aria stessa che si respira, tutto è a misura e nello spirito di famiglia.</p>
                 </div>
                 <div class="poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto3.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto3-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
         <div class="container poster2__container">
             <div class="row poster2__container__block">
                 <div class="poster2__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto2.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto2-scaled.webp" alt="">
                 </div>
                 <div class="poster2__container__block__text">
                     <p>Alla villa non ci si può aspettare convenzioni, inchini, salamelecchi e livree, ma a chi arriva è riservata l’accoglienza vera e semplice di chi viene a trovare vecchi amici per passare un periodo sereno fuori dalla routine.</p>
@@ -102,7 +102,7 @@
                 <div class="ristorante__container__block__text">
                     <h4>Il nostro Chef Denny vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="ristorante">
+                        <a href="risto">
                             <button>Scopri il ristorante</button>
                         </a>
                     </div>
@@ -144,7 +144,7 @@
         <div class="container poster3__container">
             <div class="row poster3__container__block">
                 <div class="poster3__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/home/foto6.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto6-1.webp" alt="">
                 </div>
                 <div class="poster3__container__block__text">
                     <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di  un  contributo pari ad € 20.860,07 per la partecipazione al</p>

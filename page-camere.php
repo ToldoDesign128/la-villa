@@ -7,7 +7,7 @@
             <h2>Le Camere</h2>
         </div>
         <div class="camere__hero__image">
-            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/camere/foto_camere9.jpg'; ?>" alt="">
+            <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto_camere-9_9_11zon-scaled.jpg" alt="">
         </div>
     </section>
 
@@ -21,7 +21,7 @@
                     <p>Con la camera invece è compreso la pulizia giornaliera, la biancheria, il wi-fi, il parcheggio la tv e l’aria condizionata ed una convenzione per l’ombrellone alla spiaggia e due lettini a 10 euro al giorno.</p>
                 </div>
                 <div class="camere__poster__container__block__image">
-                    <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/foto/camere/foto_camere2.jpg'; ?>" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto_camere-2_2_11zon-scaled.jpg" alt="">
                 </div>
             </div>
         </div>

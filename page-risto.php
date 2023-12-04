@@ -49,7 +49,7 @@
                 </div>
                 <div class="ristorante__poster2__container__block__text">
                     <h4>Il nostro cheff</h4>
-                    <p>I menù sono riferiti alla stagione 2022 e soggetti a modifiche</p>
+                    <p>I menù sono soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
                         <a href="https://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf">
                             <button>Scopri il menu</button>

@@ -36,26 +36,29 @@
     </section>
 
     <!-- Stiky Post -->
-    <section class="stiky">
-        <article class="container-fluid">
-            <div class="row">
-                <?php $sticky = get_option('sticky_posts');
-                rsort($sticky);
-                $args = array(
-                    'post__in' => $sticky,
-                    'posts_per_page' => 1
-                );
-                $sticky_query = new WP_Query($args);
-                while ($sticky_query->have_posts()) : $sticky_query->the_post(); ?>
-                    <div class="stiky__post">
-                        <picture class="stiky__post__img"><?php the_post_thumbnail(); ?></picture>
-                    </div>
-                <?php endwhile;
-                wp_reset_postdata();
-                ?>
+    <?php $sticky = get_option('sticky_posts');
+    rsort($sticky);
+    $args = array(
+        'post__in' => $sticky,
+        'posts_per_page' => 1
+    );
+    $sticky_query = new WP_Query($args);
+    while ($sticky_query->have_posts()) : $sticky_query->the_post(); ?>
+        <section class="stiky">
+            <?php
+            if (has_post_thumbnail()) {
+                echo get_the_post_thumbnail(null, 'full', ['class' => '']);
+            };
+            ?>
+            <div class="stiky__content">
+                <p>
+                    <?php echo the_content() ?>
+                </p>
             </div>
-        </article>
-    </section>
+        </section>
+    <?php endwhile;
+    wp_reset_postdata();
+    ?>
 
     <!-- poster -->
     <section class="poster">
@@ -100,7 +103,7 @@
         <div class="container ristorante__container">
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
-                    <h4>Il nostro Chef Denny vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
+                    <h4>Il nostro Chef vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
                         <a href="risto">
                             <button>Scopri il ristorante</button>
@@ -147,10 +150,10 @@
                     <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto6-1.webp" alt="">
                 </div>
                 <div class="poster3__container__block__text">
-                    <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di  un  contributo pari ad € 20.860,07 per la partecipazione al</p>
+                    <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di un contributo pari ad € 20.860,07 per la partecipazione al</p>
                     <p> <strong> “Bando Sostegno agli investimenti delle imprese operanti nelle attività ricettive e turistico-ricreative (art. 6 L.R. 25/2018)” </strong> </p>
                     <p> a valere sul finanziamento con protocollo PG/2019/763251 .</p>
-                    <p>Con questo progetto di investimento finanziato con risorse regionali, ha eseguito  un intervento di ristrutturazione e riqualificazione dell’Hotel La Villa sito in Pinarella di Cervia</p>
+                    <p>Con questo progetto di investimento finanziato con risorse regionali, ha eseguito un intervento di ristrutturazione e riqualificazione dell’Hotel La Villa sito in Pinarella di Cervia</p>
                 </div>
             </div>
         </div>

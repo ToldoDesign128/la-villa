@@ -21,7 +21,7 @@
         <div class="container ristorante__frase__container">
             <h4>Il ristorante è aperto a tutti, tutto l’anno.</h4>
             <h5>I Clienti che alloggiano da noi potranno scegliere ogni giorno a loro piacere di fermarsi oppure no per la ristorazione oppure essere liberi di esplorare le numerose proposte gastronomiche offerte da Cervia e dintorni.</h5>
-            <p>I menù sono riferiti alla stagione 2022 e soggetti a modifiche</p>
+            <p>I menù sono riferiti alla stagione 2023 e soggetti a modifiche</p>
         </div>
     </section>
 
@@ -48,7 +48,7 @@
                     <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
                 <div class="ristorante__poster2__container__block__text">
-                    <h4>Denny, il nostro cheff</h4>
+                    <h4>Il nostro cheff</h4>
                     <p>I menù sono riferiti alla stagione 2022 e soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
                         <a href="https://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf">

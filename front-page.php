@@ -54,6 +54,11 @@
                 <p>
                     <?php echo the_content() ?>
                 </p>
+                <div class="hero__content__block__cta__button">
+                    <a href="https://artevento.com/" target="_blank">
+                        <button>Scopri di più</button>
+                    </a>
+                </div>
             </div>
         </section>
     <?php endwhile;

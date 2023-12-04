@@ -566,7 +566,7 @@ footer .credits a:hover {
 .stiky__content p {
   max-width: 1140px;
   margin: auto;
-  padding: 12px 0;
+  padding: 12px;
   color: #EFE6DC;
   font-size: 36px;
   display: flex;
@@ -583,15 +583,25 @@ footer .credits a:hover {
   background-color: #EFE6DC;
   color: #574642;
   border: 1px solid #EFE6DC;
-  width: auto;
+  width: 30%;
+  text-align: center;
   padding: 10px 18px;
   border-radius: 5px;
   transition: all 0.3s ease-in;
+}
+.stiky__content__button a {
+  width: auto;
+  color: #574642;
+  text-decoration: none;
+  text-align: center;
 }
 .stiky__content__button:hover {
   background-color: #574642;
   color: #f7f0f5;
   font-weight: 400;
+}
+.stiky__content__button:hover a {
+  color: #f7f0f5;
 }
 @media (max-width : 576px) {
   .stiky__content__button {

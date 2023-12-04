@@ -145,7 +145,7 @@
     p {
       max-width: 1140px;
       margin: auto;
-      padding: 12px 0;
+      padding: 12px;
       color: $secondary-color;
       font-size: 36px;
       display: flex;
@@ -162,16 +162,28 @@
       background-color: $secondary-color;
       color: $primary-color;
       border: 1px solid $secondary-color;
-      width: auto;
+      width: 30%;
+      text-align: center;
 
       padding: 10px 18px;
       border-radius: 5px;
       transition: all 0.3s ease-in;
 
+      a{
+        width: auto;
+        color: $primary-color;
+        text-decoration: none;
+        text-align: center;
+      }
+
       &:hover {
         background-color: $primary-color;
         color: $white-color;
         font-weight: 400;
+        a{
+        color: $white-color;
+
+        }
       }
       @media #{$phone} {
         width: 100%;

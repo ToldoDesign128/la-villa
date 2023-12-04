@@ -54,10 +54,12 @@
                 <p>
                     <?php echo the_content() ?>
                 </p>
-                <div class="stiky__content__button">
-                    <a href="https://artevento.com/" target="_blank">
-                        <button>Scopri di più</button>
-                    </a>
+                <div class="container">
+                    <div class="stiky__content__button">
+                        <a href="https://artevento.com/" target="_blank">
+                            Scopri di più
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

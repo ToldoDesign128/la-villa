@@ -51,9 +51,7 @@
             };
             ?>
             <div class="stiky__content">
-                <p>
                     <?php echo the_content() ?>
-                </p>
                 <div class="container">
                     <div class="stiky__content__button">
                         <a href="https://artevento.com/" target="_blank">

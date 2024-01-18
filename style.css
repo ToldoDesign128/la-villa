@@ -552,6 +552,11 @@ footer .credits a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width : 768px) {
+  .stiky img {
+    width: 150%;
+  }
+}
 .stiky__content {
   position: absolute;
   top: 0;
@@ -577,6 +582,7 @@ footer .credits a:hover {
   .stiky__content p {
     width: 100%;
     padding: 36px 24px;
+    font-size: 24px;
   }
 }
 .stiky__content__button {
@@ -611,6 +617,12 @@ footer .credits a:hover {
 @media (max-width : 768px) {
   .stiky__content {
     padding: 48px 24px;
+  }
+}
+@media (max-width : 768px) {
+  .stiky {
+    max-height: 60vh;
+    height: 100%;
   }
 }
 

@@ -126,6 +126,10 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+
+    @media #{$tablet} {
+      width: 150%;      
+    }
   }
   &__content {
     position: absolute;
@@ -155,6 +159,7 @@
       @media #{$tablet} {
         width: 100%;
         padding: 36px 24px;
+        font-size: 24px;
       }
     }
 
@@ -193,6 +198,11 @@
     @media #{$tablet} {
       padding: 48px 24px;
     }
+  }
+
+  @media #{$tablet} {
+    max-height: 60vh;
+    height: 100%;    
   }
 }
 

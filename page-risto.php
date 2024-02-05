@@ -133,7 +133,7 @@
                     </a>
                 </div>
                 <div class="cta__ristorante__button">
-                    <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
+                    <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
                         <button>Prenota ora</button>
                     </a>
                 </div>

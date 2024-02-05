@@ -41,7 +41,7 @@
                         </button>
                     </div> 
                     <div class="cta">
-                        <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
+                        <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
                             <button>Prenota ora</button>
                         </a>                    
                     </div>
@@ -59,7 +59,7 @@
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
                         <button>Chiedi un preventivo</button>
                     </a> 
-                    <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
+                    <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
                         <button>Prenota ora</button>
                     </a>                     
                 </div>

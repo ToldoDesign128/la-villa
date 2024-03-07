@@ -7,10 +7,10 @@
             <h1>La Villa</h1>
             <h4>Camere e Ristorante</h4>
             <video class="hero__title__video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical.mp4" type="mp4">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical.mp4" type="video/mp4">
             </video>
             <video class="hero__title__video2" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD.mp4" type="mp4">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD.mp4" type="video/mp4">
             </video>
         </div>
         <div class="container">

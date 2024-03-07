@@ -6,6 +6,8 @@
         <div class="row hero__title">
             <h1>La Villa</h1>
             <h4>Camere e Ristorante</h4>
+            <video class="hero__title__video" src="<?php echo get_template_directory_uri()?>/assets/image/HotelLaVilla_2023_HD_Vertical.mp4" playsinline autoplay muted loop></video>
+            <video class="hero__title__video2" src="<?php echo get_template_directory_uri()?>/assets/image/HotelLaVilla_2023_HD.mp4" playsinline autoplay muted loop></video>
         </div>
         <div class="container">
             <div class="row hero__content">

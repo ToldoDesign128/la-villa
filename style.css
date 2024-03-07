@@ -432,11 +432,15 @@ footer .credits a:hover {
   border-bottom: 1px solid #EFE6DC;
 }
 .hero .hero__title {
+  position: relative;
+  overflow: clip;
+  height: 98vh;
   padding: 150px 0 50px 0;
   border-bottom: 1px solid #EFE6DC;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("https://youtu.be/bTQwUriaTcc");
 }
 .hero .hero__title h1 {
   color: #EFE6DC;
@@ -451,6 +455,40 @@ footer .credits a:hover {
   flex-grow: 1;
   width: 100%;
   text-align: center;
+}
+.hero .hero__title__video {
+  display: block;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 1280px) {
+  .hero .hero__title__video {
+    display: none;
+  }
+}
+.hero .hero__title__video2 {
+  display: none;
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 1280px) {
+  .hero .hero__title__video2 {
+    display: block;
+  }
 }
 @media (max-width : 768px) {
   .hero .hero__title {

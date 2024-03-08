@@ -107,7 +107,7 @@
                 <div class="ristorante__container__block__text">
                     <h4>Succede alla Villa</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="risto">
+                        <a href="eventi">
                             <button>Scopri di più</button>
                         </a>
                     </div>

@@ -32,7 +32,7 @@
         <div class="container eventi__gallery2__container">
             <div class="row eventi__gallery2__container__block">
                 <div class="eventi__gallery2__container__block__image">
-                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/yoga.jpg" alt="">
+                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/yoga.JPG" alt="">
                 </div>
                 <div class="eventi__gallery2__container__block__text">
                     <h3>Lo yoga alla mattina</h3>

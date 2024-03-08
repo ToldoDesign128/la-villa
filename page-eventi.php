@@ -4,7 +4,7 @@
     <!-- Hero -->
     <section class="eventi__hero">
         <div class="row eventi__hero__title">
-            <h2>I nostri Eventi</h2>
+            <h2>Succede alla Villa</h2>
         </div>
         <div class="eventi__hero__image">
             <img loading=lazy src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/hero.jpg" alt="">

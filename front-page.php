@@ -6,11 +6,11 @@
         <div class="row hero__title">
             <h1>La Villa</h1>
             <h4>Camere e Ristorante</h4>
-            <video class="hero__title__video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical.mp4" type="video/mp4">
+            <video class="hero__title__video" playsinline="playsinline" autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical_crop.mp4" type="video/mp4">
             </video>
-            <video class="hero__title__video2" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD.mp4" type="video/mp4">
+            <video class="hero__title__video2" playsinline="playsinline" autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_crop.mp4" type="video/mp4">
             </video>
         </div>
         <div class="container">
@@ -95,6 +95,25 @@
                 <div class="poster2__container__block__text">
                     <p>Alla villa non ci si può aspettare convenzioni, inchini, salamelecchi e livree, ma a chi arriva è riservata l’accoglienza vera e semplice di chi viene a trovare vecchi amici per passare un periodo sereno fuori dalla routine.</p>
                     <p>Vissuto con libertà, naturalezza, semplicità, e bene o male con lo spirito di chi vuol essere a proprio agio a casa propria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Eventi -->
+    <section class="ristorante">
+        <div class="container ristorante__container">
+            <div class="row ristorante__container__block">
+                <div class="ristorante__container__block__text">
+                    <h4>Scopri cosa succede alla Villa</h4>
+                    <div class="ristorante__container__block__text__button">
+                        <a href="risto">
+                            <button>Scopri di più</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="ristorante__container__block__image">
+                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/musica.jpg" alt="">
                 </div>
             </div>
         </div>

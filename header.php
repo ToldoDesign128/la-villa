@@ -66,3 +66,11 @@
             </div>
         </div>
     </header>
+
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left">
+        <h3 style="color: white; position: absolute; bottom: 10vh; right: 50px;">Loading...</h3>
+      </div>
+      <div class="loader-section section-right"></div>
+   </div>

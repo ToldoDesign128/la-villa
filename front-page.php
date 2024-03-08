@@ -105,7 +105,7 @@
         <div class="container ristorante__container">
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
-                    <h4>Scopri cosa succede alla Villa</h4>
+                    <h4>Succede alla Villa</h4>
                     <div class="ristorante__container__block__text__button">
                         <a href="risto">
                             <button>Scopri di più</button>

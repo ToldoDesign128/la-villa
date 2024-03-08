@@ -7,7 +7,7 @@
             <h2>Le Camere</h2>
         </div>
         <div class="camere__hero__image">
-            <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/camere/camere_hero.jpg" alt="">
+            <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/camere/camere_new_hero.jpg" alt="">
         </div>
     </section>
 

@@ -3,12 +3,12 @@
         <div class="row">
             <div class="footer__col">
                 <div class="footer__col__logo">
-                    <a href="<?php echo esc_url_raw(home_url()); ?>">
+                    <a href="<?php echo esc_url_raw(home_url()); ?> " >
                         <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
                     </a>                    
                 </div>
                 <div class="footer__col__adress">
-                    <a href="">
+                    <a href="https://goo.gl/maps/aJPjR1tCdXvB3Rfu5" target="_blank">
                         <p>Viale Italia, 167 – 48015 Pinarella Di Cervia (RA)</p>
                     </a>
                 </div>
@@ -18,13 +18,13 @@
                     <h2>
                         Contatti
                     </h2>
-                    <a href="tel:0544987401">
+                    <a href="tel:0544987401" target="_blank">
                         <div class="telefono">
                             <img loading=lazy src="" alt="">
                             <p>+39 0544987401</p>
                         </div>
                     </a>
-                    <a href="mailto:info@lavillapinarella.it">
+                    <a href="mailto:info@lavillapinarella.it" target="_blank">
                         <div class="mail">
                             <img loading=lazy src="" alt="">
                             <p>info@lavillapinarella.it</p>                        

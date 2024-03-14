@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="cta__ristorante__button">
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
-                        <button>Chiedi un preventivo</button>
+                        <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>
                 <div class="cta__ristorante__button">

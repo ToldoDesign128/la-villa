@@ -18,7 +18,7 @@
                 <div class="menu__box">
                     <div class="logo">
                         <a href="<?php echo esc_url_raw(home_url()); ?>">
-                            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo">
+                            <img loading=lazy src="<?php echo get_template_directory_uri() . '/assets/image/logo_white.svg';?>" alt="logo" width="120px">
                         </a>
                     </div>                
                     <!--pannello menu widget-->
@@ -34,7 +34,7 @@
                 <div class="menu__cta">
                     <!--icona hamburger-->
                     <div class="header__hamburger">
-                        <button class="hamburger hamburger--spin" type="button">
+                        <button type="button" class="hamburger hamburger--spin" type="button">
                             <span class="hamburger-box">
                                 <span class="hamburger-inner"></span>
                             </span>
@@ -57,7 +57,7 @@
                 </nav>
                 <div class="cta__mobile">
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
-                        <button>Chiedi un preventivo</button>
+                        <button type="button">Chiedi un preventivo</button>
                     </a> 
                     <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
                         <button>Prenota ora</button>

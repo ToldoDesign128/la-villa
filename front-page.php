@@ -6,11 +6,17 @@
         <div class="row hero__title">
             <h1>La Villa</h1>
             <h4>Camere e Ristorante</h4>
+            <video class="hero__title__video" playsinline="playsinline" muted autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical_crop.mp4" type="video/mp4">
+            </video>
+            <video class="hero__title__video2" playsinline="playsinline" muted autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_crop.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="container">
             <div class="row hero__content">
                 <div class="hero__content__image">
-                    <img src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto1-1.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto1-1.webp" alt="">
                 </div>
                 <div class="hero__content__block">
                     <div class="hero__content__block__text">
@@ -25,8 +31,8 @@
                             </a>
                         </div>
                         <div class="hero__content__block__cta__button">
-                            <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                                <button type="button">Prenota ora</button>
+                            <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
+                                <button>Prenota ora</button>
                             </a>
                         </div>
                     </div>
@@ -36,26 +42,34 @@
     </section>
 
     <!-- Stiky Post -->
-    <section class="stiky">
-        <article class="container-fluid">
-            <div class="row">
-                <?php $sticky = get_option('sticky_posts');
-                rsort($sticky);
-                $args = array(
-                    'post__in' => $sticky,
-                    'posts_per_page' => 1
-                );
-                $sticky_query = new WP_Query($args);
-                while ($sticky_query->have_posts()) : $sticky_query->the_post(); ?>
-                    <div class="stiky__post">
-                        <picture class="stiky__post__img"><?php the_post_thumbnail(); ?></picture>
+    <?php $sticky = get_option('sticky_posts');
+    rsort($sticky);
+    $args = array(
+        'post__in' => $sticky,
+        'posts_per_page' => 1
+    );
+    $sticky_query = new WP_Query($args);
+    while ($sticky_query->have_posts()) : $sticky_query->the_post(); ?>
+        <section class="stiky">
+            <?php
+            if (has_post_thumbnail()) {
+                echo get_the_post_thumbnail(null, 'full', ['class' => '']);
+            };
+            ?>
+            <div class="stiky__content">
+                <?php echo the_content() ?>
+                <div class="container">
+                    <div class="stiky__content__button">
+                        <a href="https://artevento.com/" target="_blank">
+                            Scopri di più
+                        </a>
                     </div>
-                <?php endwhile;
-                wp_reset_postdata();
-                ?>
+                </div>
             </div>
-        </article>
-    </section>
+        </section>
+    <?php endwhile;
+    wp_reset_postdata();
+    ?>
 
     <!-- poster -->
     <section class="poster">
@@ -65,7 +79,7 @@
                     <p>La prima cosa che salta all’occhio è l’autenticità del luogo che non è stato costruito per essere un albergo ma nasce come villa privata e ne mantiene tutte le caratteristiche, spirito, arredamento, disposizione dei locali, l’aria stessa che si respira, tutto è a misura e nello spirito di famiglia.</p>
                 </div>
                 <div class="poster__container__block__image">
-                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto3-scaled.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto3-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -76,11 +90,30 @@
         <div class="container poster2__container">
             <div class="row poster2__container__block">
                 <div class="poster2__container__block__image">
-                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto2-scaled.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto2-scaled.webp" alt="">
                 </div>
                 <div class="poster2__container__block__text">
                     <p>Alla villa non ci si può aspettare convenzioni, inchini, salamelecchi e livree, ma a chi arriva è riservata l’accoglienza vera e semplice di chi viene a trovare vecchi amici per passare un periodo sereno fuori dalla routine.</p>
                     <p>Vissuto con libertà, naturalezza, semplicità, e bene o male con lo spirito di chi vuol essere a proprio agio a casa propria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Eventi -->
+    <section class="ristorante">
+        <div class="container ristorante__container">
+            <div class="row ristorante__container__block">
+                <div class="ristorante__container__block__text">
+                    <h4>Succede alla Villa</h4>
+                    <div class="ristorante__container__block__text__button">
+                        <a href="eventi">
+                            <button>Scopri di più</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="ristorante__container__block__image">
+                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/musica.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -100,15 +133,15 @@
         <div class="container ristorante__container">
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
-                    <h4>Il nostro Chef Nazario vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
+                    <h4>Il nostro Chef vi aspetta con la sua cucina. <br><br> Scopri il ristorante</h4>
                     <div class="ristorante__container__block__text__button">
-                        <a href="risto" target="_blank">
-                            <button type="button">Scopri il ristorante</button>
+                        <a href="risto">
+                            <button>Scopri il ristorante</button>
                         </a>
                     </div>
                 </div>
                 <div class="ristorante__container__block__image">
-                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto5-scaled.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
             </div>
         </div>
@@ -124,8 +157,8 @@
                     </a>
                 </div>
                 <div class="cta__ristorante__button">
-                    <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                        <button type="button">Prenota ora</button>
+                    <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
+                        <button>Prenota ora</button>
                     </a>
                 </div>
             </div>
@@ -144,13 +177,13 @@
         <div class="container poster3__container">
             <div class="row poster3__container__block">
                 <div class="poster3__container__block__image">
-                    <img loading=lazy src="http://lavillapinarella.it/wp-content/uploads/2023/03/foto6-1.webp" alt="">
+                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto6-1.webp" alt="">
                 </div>
                 <div class="poster3__container__block__text">
-                    <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di  un  contributo pari ad € 20.860,07 per la partecipazione al</p>
+                    <p>L’impresa ALDO RAVEGNANI ha ricevuto nell’anno 2021 l’erogazione di un contributo pari ad € 20.860,07 per la partecipazione al</p>
                     <p> <strong> “Bando Sostegno agli investimenti delle imprese operanti nelle attività ricettive e turistico-ricreative (art. 6 L.R. 25/2018)” </strong> </p>
                     <p> a valere sul finanziamento con protocollo PG/2019/763251 .</p>
-                    <p>Con questo progetto di investimento finanziato con risorse regionali, ha eseguito  un intervento di ristrutturazione e riqualificazione dell’Hotel La Villa sito in Pinarella di Cervia</p>
+                    <p>Con questo progetto di investimento finanziato con risorse regionali, ha eseguito un intervento di ristrutturazione e riqualificazione dell’Hotel La Villa sito in Pinarella di Cervia</p>
                 </div>
             </div>
         </div>

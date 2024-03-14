@@ -41,8 +41,8 @@
                         </button>
                     </div> 
                     <div class="cta">
-                        <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                            <button type="button">Prenota ora</button>
+                        <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
+                            <button>Prenota ora</button>
                         </a>                    
                     </div>
                 </div>
@@ -59,10 +59,18 @@
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
                         <button type="button">Chiedi un preventivo</button>
                     </a> 
-                    <a href="https://booking.passepartout.cloud/booking?oidPortale=9804&lingua=it" target="_blank">
-                        <button type="button">Prenota ora</button>
+                    <a href="https://booking.passepartout.cloud/booking?oidPortale=18485&lingua=it" target="_blank">
+                        <button>Prenota ora</button>
                     </a>                     
                 </div>
             </div>
         </div>
     </header>
+
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left">
+        <h3 style="color: white; position: absolute; bottom: 10vh; right: 50px;">Loading...</h3>
+      </div>
+      <div class="loader-section section-right"></div>
+   </div>

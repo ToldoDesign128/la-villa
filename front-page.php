@@ -120,7 +120,7 @@
     </section>
 
     <!-- focus -->
-    <section class="focus">
+    <section class="focus" style="border-top: 1px solid white;">
         <div class="container focus__text">
             <p>Ciao ciao vecchia pensione completa!</p>
             <p>Alla Villa ognuno è libero di vivere la propria vacanza senza guardare l’orologio scegli la camera che preferisci a due passi dal mare.</p>

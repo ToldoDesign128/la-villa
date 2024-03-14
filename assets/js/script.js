@@ -21,3 +21,10 @@ jQuery(document).ready(function () {
     }).mount();
   }
 });
+
+// Loader
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+      document.querySelector("body").classList.add("loaded");
+  }, 100)
+});

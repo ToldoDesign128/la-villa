@@ -6,6 +6,12 @@
         <div class="row hero__title">
             <h1>La Villa</h1>
             <h4>Camere e Ristorante</h4>
+            <video class="hero__title__video" playsinline="playsinline" muted autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_Vertical_crop.mp4" type="video/mp4">
+            </video>
+            <video class="hero__title__video2" playsinline="playsinline" muted autoplay="autoplay" loop="loop">
+                <source src="<?php echo get_template_directory_uri() ?>/assets/image/HotelLaVilla_2023_HD_crop.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="container">
             <div class="row hero__content">
@@ -21,7 +27,7 @@
                     <div class="row hero__content__block__cta">
                         <div class="hero__content__block__cta__button">
                             <a href="https://lavilla.comodohotel.it/" target="_blank">
-                                <button>Chiedi un preventivo</button>
+                                <button type="button">Chiedi un preventivo</button>
                             </a>
                         </div>
                         <div class="hero__content__block__cta__button">
@@ -51,7 +57,7 @@
             };
             ?>
             <div class="stiky__content">
-                    <?php echo the_content() ?>
+                <?php echo the_content() ?>
                 <div class="container">
                     <div class="stiky__content__button">
                         <a href="https://artevento.com/" target="_blank">
@@ -94,6 +100,25 @@
         </div>
     </section>
 
+    <!-- Poster Eventi -->
+    <section class="ristorante">
+        <div class="container ristorante__container">
+            <div class="row ristorante__container__block">
+                <div class="ristorante__container__block__text">
+                    <h4>Succede alla Villa</h4>
+                    <div class="ristorante__container__block__text__button">
+                        <a href="eventi">
+                            <button>Scopri di più</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="ristorante__container__block__image">
+                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/musica.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- focus -->
     <section class="focus">
         <div class="container focus__text">
@@ -128,7 +153,7 @@
             <div class="row">
                 <div class="cta__ristorante__button">
                     <a href="https://lavilla.comodohotel.it/" target="_blank">
-                        <button>Chiedi un preventivo</button>
+                        <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>
                 <div class="cta__ristorante__button">
@@ -143,7 +168,7 @@
     <!-- Mappa -->
     <section class="mappa">
         <div class="mappa__container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d365856.2574639731!2d12.368889!3d44.243056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeec65de2df1e3c1!2sHotel%20La%20Villa!5e0!3m2!1sit!2sus!4v1676476511688!5m2!1sit!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="Mappa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d365856.2574639731!2d12.368889!3d44.243056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeec65de2df1e3c1!2sHotel%20La%20Villa!5e0!3m2!1sit!2sus!4v1676476511688!5m2!1sit!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 

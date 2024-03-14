@@ -119,12 +119,10 @@ add_action( 'admin_head', 'fix_svg' );
 // Il mio stile e i miei scripts
 
 function add_la_villa_scripts() {
-    wp_enqueue_style("hamburger-style", get_template_directory_uri() . '/assets/hamburgers.min.css');
+    wp_enqueue_style("hamburger-style", get_template_directory_uri() . '/hamburgers.min.css');
     wp_enqueue_style("splide-style", get_template_directory_uri() . '/splide.min.css');
     wp_enqueue_style("la-villa-style", get_template_directory_uri() . '/style.min.css');
     wp_enqueue_script("splide-script", get_template_directory_uri().'/assets/js/splide/splide.min.js', array("jquery"), null, false);
-    wp_enqueue_script("gsap-script", get_template_directory_uri().'/assets/js/gsap/gsap.min.js', array("jquery"), null, false);
-    wp_enqueue_script("gsap-ScrollTrigger-script", get_template_directory_uri().'/assets/js/gsap/ScrollTrigger.min.js', array("jquery"), null, false);
 	wp_enqueue_script("la-villa-script", get_template_directory_uri(). '/script.min.js', array("jquery"), null, true);
 
 }

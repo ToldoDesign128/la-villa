@@ -106,11 +106,7 @@
             <div class="row ristorante__container__block">
                 <div class="ristorante__container__block__text">
                     <h4>Succede alla Villa</h4>
-                    <div class="ristorante__container__block__text__button">
-                        <a href="eventi">
-                            <button>Scopri di più</button>
-                        </a>
-                    </div>
+                    <p>Considerato un “pellegrinaggio” imperdibile dagli aquilonisti del mondo intero, la “patria dell’arte eolica” e un magico “luogo dell’anima”</p>
                 </div>
                 <div class="ristorante__container__block__image">
                     <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/musica.jpg" alt="">

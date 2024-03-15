@@ -48,7 +48,7 @@
                     <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante3-scaled.webp" alt="">
                 </div>
                 <div class="ristorante__poster2__container__block__text">
-                    <h4>Il nostro cheff</h4>
+                    <h4>Il nostro chef</h4>
                     <p>I menù sono soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
                         <a href="https://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf">

@@ -128,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="cta__ristorante__button">
-                    <a href="https://lavilla.comodohotel.it/" target="_blank">
+                    <a href="https://booking.passepartout.cloud/booking/formv1?oidPortale=18485&lingua=it" target="_blank">
                         <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>

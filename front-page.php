@@ -26,7 +26,7 @@
 
                     <div class="row hero__content__block__cta">
                         <div class="hero__content__block__cta__button">
-                            <a href="https://booking.passepartout.cloud/booking/formv1?oidPortale=18485&lingua=it" target="_blank">
+                            <a href="https://lavilla.comodohotel.it/" target="_blank">
                                 <button type="button">Chiedi un preventivo</button>
                             </a>
                         </div>
@@ -106,7 +106,7 @@
             <div class="row poster__container__block">
                 <div class="poster__container__block__text">
                     <h4 style="color: #EFE6DC; margin-bottom: 1rem;">Succede alla Villa</h4>
-                    <a href="risto">
+                    <a href="eventi">
                         <button>Scopri di più</button>
                     </a>
                 </div>
@@ -150,7 +150,7 @@
         <div class="container">
             <div class="row">
                 <div class="cta__ristorante__button">
-                    <a href="https://booking.passepartout.cloud/booking/formv1?oidPortale=18485&lingua=it" target="_blank">
+                    <a href="https://lavilla.comodohotel.it/" target="_blank">
                         <button type="button">Chiedi un preventivo</button>
                     </a>
                 </div>

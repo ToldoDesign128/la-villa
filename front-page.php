@@ -106,7 +106,9 @@
             <div class="row poster__container__block">
                 <div class="poster__container__block__text">
                     <h4 style="color: #EFE6DC; margin-bottom: 1rem;">Succede alla Villa</h4>
-                    <p>Considerato un “pellegrinaggio” imperdibile dagli aquilonisti del mondo intero, la “patria dell’arte eolica” e un magico “luogo dell’anima”</p>
+                    <a href="risto">
+                        <button>Scopri di più</button>
+                    </a>
                 </div>
                 <div class="poster__container__block__image">
                     <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/eventi/musica.jpg" alt="">

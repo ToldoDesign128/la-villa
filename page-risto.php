@@ -21,7 +21,7 @@
         <div class="container ristorante__frase__container">
             <h4>Il ristorante è aperto a tutti, tutto l’anno.</h4>
             <h5>I Clienti che alloggiano da noi potranno scegliere ogni giorno a loro piacere di fermarsi oppure no per la ristorazione oppure essere liberi di esplorare le numerose proposte gastronomiche offerte da Cervia e dintorni.</h5>
-            <p>I menù sono riferiti alla stagione 2023 e soggetti a modifiche</p>
+            <p>I menù sono riferiti alla stagione 2024 e soggetti a modifiche</p>
         </div>
     </section>
 

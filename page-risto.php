@@ -10,7 +10,7 @@
             <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto3-scaled.webp" alt="">
         </div>
         <div class="ristorante__hero__button row">
-            <a href="https://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf">
+            <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf">
                 <button>Scopri il menu</button>
             </a>
         </div>
@@ -21,7 +21,7 @@
         <div class="container ristorante__frase__container">
             <h4>Il ristorante è aperto a tutti, tutto l’anno.</h4>
             <h5>I Clienti che alloggiano da noi potranno scegliere ogni giorno a loro piacere di fermarsi oppure no per la ristorazione oppure essere liberi di esplorare le numerose proposte gastronomiche offerte da Cervia e dintorni.</h5>
-            <p>I menù sono riferiti alla stagione 2023 e soggetti a modifiche</p>
+            <p>I menù sono riferiti alla stagione 2026 e soggetti a modifiche</p>
         </div>
     </section>
 
@@ -51,7 +51,7 @@
                     <h4>Il nostro chef</h4>
                     <p>I menù sono soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
-                        <a href="https://lavillapinarella.it/wp-content/uploads/2022/03/LaVilla-menu.pdf">
+                        <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf">
                             <button>Scopri il menu</button>
                         </a>
                     </div>
@@ -65,25 +65,10 @@
         <div class="container ristorante__poster3__container">
             <div class="row ristorante__poster3__container__block">
                 <div class="ristorante__poster3__container__block__text">
-                    <h4>Assaggia le nostre bruschette: </h4>
-                    <h5>Il nostro pane viene prodotto a Predappio secondo l’antica tradizione, la sua particolare lievitazione lo rende leggero e genuino dal gusto inconfondibile.</h5>
+                    <h4>La Romagna è una terra tutta da gustare: conoscere le sue tradizioni e i suoi sapori vi farà scoprire la sua essenza</h4>
                 </div>
                 <div class="ristorante__poster3__container__block__image">
-                    <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante2-scaled.webp" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- poster 4 -->
-    <section class="ristorante__poster4">
-        <div class="container ristorante__poster4__container">
-            <div class="row ristorante__poster4__container__block">
-                <div class="ristorante__poster4__container__block__image">
                     <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/ristorante4.webp" alt="">
-                </div>
-                <div class="ristorante__poster4__container__block__text">
-                    <h4>La Romagna è una terra tutta da gustare: conoscere le sue tradizioni e i suoi sapori vi farà scoprire la sua essenza</h4>
                 </div>
             </div>
         </div>

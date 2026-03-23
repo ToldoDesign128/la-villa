@@ -74,7 +74,7 @@
     </section>
 
     <!-- gallery ristorante -->
-    <section class="ristorante__gallery">
+    <section class="ristorante__gallery" style="border-top: 1px solid white;">
         <div class="container ristorante__gallery__container">
             <div class="ristorante__gallery__container__image">
                 <?php get_template_part('template-parts/loop-ristorante'); ?>

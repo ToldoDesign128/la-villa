@@ -97,7 +97,7 @@
             <div class="row ristorante__poster5__container__block">
                 <div class="ristorante__poster5__container__block__text">
                     <h4>Il Pranzetto</h4>
-                    <p>dalle 12.30 alle 14.30 il Sabato e la Domenica</p>
+                    <p>dalle 12.30 alle 14.30 la Domenica</p>
                     <h4> La Cena</h4>
                     <p>dalle 19.30 alle 23.00 tutti i giorni</p>
                 </div>

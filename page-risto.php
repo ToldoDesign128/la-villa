@@ -10,7 +10,7 @@
             <img loading=lazy src="https://lavillapinarella.it/wp-content/uploads/2023/03/foto3-scaled.webp" alt="">
         </div>
         <div class="ristorante__hero__button row">
-            <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf">
+            <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf" target="_blank" rel="noopener noreferrer">
                 <button>Scopri il menu</button>
             </a>
         </div>
@@ -21,11 +21,7 @@
         <div class="container ristorante__frase__container">
             <h4>Il ristorante è aperto a tutti, tutto l’anno.</h4>
             <h5>I Clienti che alloggiano da noi potranno scegliere ogni giorno a loro piacere di fermarsi oppure no per la ristorazione oppure essere liberi di esplorare le numerose proposte gastronomiche offerte da Cervia e dintorni.</h5>
-<<<<<<< HEAD
             <p>I menù sono riferiti alla stagione 2026 e soggetti a modifiche</p>
-=======
-            <p>I menù sono riferiti alla stagione 2024 e soggetti a modifiche</p>
->>>>>>> 1a0f029b83363ed0d077ca3391eafd243b91df63
         </div>
     </section>
 
@@ -55,7 +51,7 @@
                     <h4>Il nostro chef</h4>
                     <p>I menù sono soggetti a modifiche</p>
                     <div class="ristorante__poster2__container__block__text__button">
-                        <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf">
+                        <a href="https://lavillapinarella.it/wp-content/uploads/2026/03/LaVilla-menu-pietanze-A4-2versione.pdf" target="_blank" rel="noopener noreferrer">
                             <button>Scopri il menu</button>
                         </a>
                     </div>
@@ -65,7 +61,6 @@
     </section>
 
     <!-- poster 3-->
-    <section class="ristorante__poster3">
         <div class="container ristorante__poster3__container">
             <div class="row ristorante__poster3__container__block">
                 <div class="ristorante__poster3__container__block__text">

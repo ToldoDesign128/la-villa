@@ -125,13 +125,13 @@ ul, ol, li {
 }
 
 a {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 140%;
 }
 
 button {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   text-transform: uppercase;
@@ -1747,6 +1747,7 @@ footer .credits a:hover {
 }
 .ristorante__gallery {
   border-bottom: 1px solid #f7f0f5;
+  border-top: 1px solid #f7f0f5;
 }
 .ristorante__gallery__container {
   padding: 48px 12px;
@@ -1780,4 +1781,15 @@ footer .credits a:hover {
 }
 .ristorante .bb-none {
   border-bottom: none;
+}
+
+.bando{
+  border-top: 1px solid #EFE6DC;
+  padding: 48px 0;
+}
+
+.bando__wrap p{
+  color: #EFE6DC;
+  font-size: 20px;
+  text-align: center;
 }

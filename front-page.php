@@ -186,6 +186,14 @@
             </div>
         </div>
     </section>
+    <!-- Bando 2 -->
+    <section class="bando">
+        <div class="bando__wrap container">
+            <p>PR FESR 2021/2027</p>
+            <p>RER - DD 26159/2023 - FONDO REGIONALE MULTISCOPO ROTATIVO DI FINANZA AGEVOLATA ISTITUITO CON DGR 194/2023, PROGRAMMAZIONE PR FESR 2021-2027.</p>
+            <p>“FONDO ENERGIA – RAVEGNANI ALDO”</p>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>

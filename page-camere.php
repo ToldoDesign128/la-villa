@@ -18,7 +18,7 @@
                 <div class="camere__poster__container__block__text">
                     <p>I nostri ospiti sono liberi di godere del proprio tempo come preferiscono, per questo abbiamo deciso di offrire un servizio diverso dalla solita pensione completa che permette di dimenticarsi a casa l’orologio e di decidere al momento cosa fare della propria giornata.</p>
                     <p>Nella prenotazione non sono compresi i pasti, ma a disposizione tutti i giorni una caffetteria e un ristorante bruschetteria all’interno della struttura dove sarà possibile fermarsi quando si vuole decidendo al momento e pagando solo quello che viene consumato.</p>
-                    <p>Con la camera invece è compreso la pulizia giornaliera, la biancheria, il wi-fi, la tv e l’aria condizionata ed una convenzione per l’ombrellone alla spiaggia e due lettini a 10 euro al giorno.</p>
+                    <p>Con la camera invece è compreso la pulizia giornaliera, la biancheria, il wi-fi, la tv e l’aria condizionata.</p>
                 </div>
                 <div class="camere__poster__container__block__image">
                     <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/assets/image/camere/camere_2.jpg" alt="">
